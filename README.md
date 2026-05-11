@@ -43,7 +43,7 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/Image-Classification-Model.git](https://github.com/your-username/Image-Classification-Model.git)
+   git clone https://github.com/pythonophile/Image-Classification-Model.git
    cd Image-Classification-Model
 
 ### Install dependencies:
