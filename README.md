@@ -1,27 +1,50 @@
-### 📸 Image Classification Model
+# 📸 Image Classification Model (Deep Learning)
 
-An AI tool that classifies images using Deep Learning. This project demonstrates how computers can be trained to "see" and identify objects (like animals) by analyzing pixel patterns.🚀 How it WorksData Preprocessing: Images are resized to a uniform $128 \times 128$ resolution and normalized so the AI can process them faster.The "Brain" (CNN): We use a Convolutional Neural Network.Convolution Layers: Act like digital filters to find edges and shapes.Pooling 
+An interactive Artificial Intelligence tool that classifies images using a **Convolutional Neural Network (CNN)**. This project demonstrates how computers learn to recognize visual patterns, similar to how the human eye and brain work together.
 
-### Layers: 
+---
 
-Simplify the image data to focus only on important features.Dense Layers: Make the final decision (e.g., "This is a Dog").Interface: A user-friendly web dashboard built with Streamlit for real-time interaction.🛠️ Tech StackLanguage: PythonDeep Learning: TensorFlow / KerasWeb Framework: StreamlitData Handling: NumPy & Pillow (PIL)Visualization: Matplotlib (with white background styling)📁 Project StructurePlaintext├── Classifier_Notebook.ipynb  
+### 🚀 How it Works
 
-### Step-by-step training & logic
+To make this "AI Brain" work, the project follows three main stages:
 
+1. **The Architecture (CNN):** - **Convolutional Layers:** These act like digital magnifying glasses, searching for edges, textures, and shapes.
+   - **Pooling Layers:** These simplify the data, making the model faster and more efficient.
+   - **Dense Layers:** These act like a committee that looks at all the features and decides the final category.
 
-├── app.py                     # Streamlit code for the web app
-├── animal_classifier_model.h5 # The trained "brain" of our AI
-├── requirements.txt           # List of necessary Python libraries
-└── README.md                  # Project documentation
+2. **Training:** The model was trained on thousands of labeled images. It was taught using an **Optimizer** (to correct its mistakes) and a **Loss Function** (to measure how far off its guesses were).
 
+3. **Deployment:** Using **Streamlit**, we turn the complex Python code into a simple web dashboard where anyone can upload an image and get an instant prediction.
 
-### 💻 Setup & Installation
+---
 
-### Clone the repository:
-Bash
+### 🛠️ Tech Stack & Tools
 
-git clone https://github.com/your-username/Image-Classification-Model.git
-cd Image-Classification-Model
+* **Programming Language:** Python 3.x
+* **Deep Learning Framework:** TensorFlow & Keras
+* **Web Interface:** Streamlit
+* **Image Processing:** Pillow (PIL) & NumPy
+* **Data Visualization:** Matplotlib (Set with a clean white background)
+
+---
+
+### 📁 Project Structure
+
+* `app.py`: The main script that runs the Streamlit web application.
+* `animal_classifier_model.h5`: The pre-trained Deep Learning model (the "brain").
+* `requirements.txt`: A list of all Python libraries needed to run this project.
+* `README.md`: This documentation file.
+
+---
+
+### 💻 Installation & Setup
+
+Follow these steps to run the project on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/your-username/Image-Classification-Model.git](https://github.com/your-username/Image-Classification-Model.git)
+   cd Image-Classification-Model
 
 ### Install dependencies:
 Bash
